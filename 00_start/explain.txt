@@ -1,0 +1,16 @@
+What is this file?
+- Used to help explain what the files within this folder do.
+- Please let me know if there are typos / errors!
+
+index.html
+- This is the root of your website.
+- Most modern webservers look for an "index.html" file in the root directory of a website.
+-- Don't worry about what any of that means, for now just assume that all "homepages" of websites are "index.html".
+
+styles.css
+- This is where all the CSS styles will be held.
+- We link to the stylesheet in the index.html file.
+-- This file is also called a "stylesheet"
+
+What are we doing?
+- Just displaying "Hello World!"
