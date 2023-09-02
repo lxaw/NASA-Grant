@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- How it is to be viewed -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of document -->
+    <title>My App</title>
+    <!-- Can link to a style sheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<!-- Body of doc, what you see -->
+<body>
+    <canvas id = "drawing_canvas" width="800" height="400"></canvas>
+    <button id = "btn__click-me">Click me!</button>
+</body>
+</html>
+
+<!-- Starting to add javascript -->
+<script>
+    function whatToDoOnClick(){
+        alert("I was clicked!");
+    }
+    let btn__click_me = document.getElementById("btn__click-me")
+    btn__click_me.addEventListener('click',whatToDoOnClick)
+
+</script>
