@@ -5,23 +5,31 @@
     <!-- How it is to be viewed -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title of document -->
-    <title>My App</title>
+    <title>My First Website</title>
     <!-- Can link to a style sheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <!-- Body of doc, what you see -->
 <body>
-    <canvas id = "drawing_canvas" width="800" height="400"></canvas>
+    <p>Hello World</p>
+    <canvas id = "drawing-board" width="800" height="400"></canvas>
     <button id = "btn__click-me">Click me!</button>
 </body>
 </html>
 
 <!-- Starting to add javascript -->
 <script>
+    // Create a function - functions can be called to do a specific task
     function whatToDoOnClick(){
+        // This function just shows an alert on the webpage
         alert("I was clicked!");
     }
+
+    // Find the button element using the id we gave it
     let btn__click_me = document.getElementById("btn__click-me")
+
+    // Set an event listener. When the user clicks the button, call the function we made
     btn__click_me.addEventListener('click',whatToDoOnClick)
 
 </script>

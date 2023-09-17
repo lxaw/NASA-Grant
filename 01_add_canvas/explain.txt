@@ -1,0 +1,11 @@
+Let's start adding some more elements to our website.
+
+index.html
+- In the head, we link to the stylesheet we created earlier
+- We move our "Hello World" text to a paragraph element
+- Now, we add another element to our homepage
+-- This "canvas" element is an area on the page that will be used to draw on later
+
+
+styles.css
+- Add some style to the "canvas" element. Add a border.

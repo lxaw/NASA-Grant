@@ -1,0 +1,15 @@
+Let's add some logic to make the canvas an actual drawing board. 
+We'll do this using JavaScript event listeners.
+We can also get rid of our "Click me!" button. We don't need it anymore.
+
+index.html
+- get rid of "Click me!" button
+
+index.js
+- Remove old code for "Click me!" button.
+- We start by finding the canvas element from the webpage
+- Then, we dynamically set the size of the canvas based on the size of the window
+- Then we add event listeners to handle drawing
+-- mousemove: Track movement of mouse. We want to draw wherever the mouse goes over when the user is clicking down
+-- mousedown: When the user clicks, begin drawing
+-- mouseup: When the user let's go, stop drawing

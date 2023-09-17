@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- How it is to be viewed -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of document -->
+    <title>My First Website</title>
+    <!-- Can link to a style sheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<!-- Body of doc, what you see -->
+<body>
+    <section class="container">
+        <div id="toolbar">
+
+            <!-- A header to show the name of our website -->
+            <h1>Draw.</h1>
+
+            <!-- Let the user input a number -->
+            <label for="stroke">Stroke</label>
+            <input id="stroke" name='stroke' type="color">
+
+            <!-- Let the user pick a color -->
+            <label for="lineWidth">Line Width</label>
+            <input id="lineWidth" name='lineWidth' type="number" value="5">
+
+            <!-- Let the user clear the canvas -->
+            <button id="clear">Clear</button>
+        </div>
+
+        <div class="drawing-board">
+            <canvas id="drawing-board" width="800" height="400"></canvas>
+        </div>
+    </section>
+
+    <!-- Souce Javascript from another file -->
+    <script src="./index.js"></script>
+</body>
+</html>
+

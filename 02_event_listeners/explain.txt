@@ -1,0 +1,10 @@
+In order to make things happen on the website, we need to respond to user actions (like clicks).
+We do this by adding "Event Listeners" using JavaScript
+
+index.html
+- First, we create a "button" element on our homepage. 
+-- We give this button a name (id) and some text to display.
+- We can add JavaScript code to the page using a <Script> tag
+-- We create a function called "whatToDoOnClick" that shows an alert on the page.
+-- We find the button element we created using the id we gave it earlier
+-- We add an event listener to listen for whenever the user clicks this button. This calls the function we made earlier.
