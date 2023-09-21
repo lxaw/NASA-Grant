@@ -4,6 +4,7 @@ We can also get rid of our "Click me!" button. We don't need it anymore.
 
 index.html
 - get rid of "Click me!" button
+- Can remove width and height from canvas object, since we will be setting these values in JS
 
 index.js
 - Remove old code for "Click me!" button.

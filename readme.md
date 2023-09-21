@@ -27,3 +27,7 @@
 ### 05 Canvas Logic
 - JS code to handle canvas logic
 
+
+### 06 Toolbox Logic
+- JS code to handle user inputs for toolbox controls
+

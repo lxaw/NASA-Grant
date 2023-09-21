@@ -1,0 +1,6 @@
+Let's add some more logic. This time to let the user's input actually change what's happening
+We'll do this using JavaScript event listeners again
+
+index.js
+- We first add an event listener to trigger if the user click the clear button. This will clear the canvas
+- We add event listeners for the two fields we added earlier. If the user changes either value, we update the variable in javascript
