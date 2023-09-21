@@ -1,0 +1,5 @@
+Let's add some flare!
+We will create a color gradient over our title using CSS
+
+styles.css:
+- we will use the linear gradient function. We add multiple versions to support different browsers

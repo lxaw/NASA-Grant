@@ -1,0 +1,18 @@
+To let users interact with our website, they need to be able to change some settings (color of drawing, width of strokes)
+We do this by adding some "input" elements to our homepage.
+"label" elements are used to display text to user telling them what the input is for.
+We also move the JavaScript code from last module to its own file (for organization), and source it.
+
+Note: We are not doing anything with these inputs yet, we need to handle inputs using JavaScript. Right now, these input do nothing.
+
+index.html 
+- Add a "div" element to hold our inputs. This is used for organization and styling.
+-- Add a "h1" element. This is a header.
+-- Add two "input" elements. One will let the user enter a number. The other lets them choose a color.
+-- Add two "label" elements. These just add text to the webpage.
+-- Add a button. This will be used to clear the canvas later.
+- Source our JavaScript code using a "script" tag
+
+index.js
+- This file will hold all of our JavaScript code.
+- By sourcing this file in index.html, it will work the same as before.

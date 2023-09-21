@@ -1,0 +1,9 @@
+Let's make our homepage look prettier. Let's move the user inputs the left of the screen in a sidebar.
+We will do this using CSS in styles.css
+
+
+styles.css
+- modify our main "body" element to take up the whole space of our window
+- Use display flex to align our user inputs as a column on the left
+- Change color, fontsize, etc. of user input sidebar
+- Move canvas into a div for organization

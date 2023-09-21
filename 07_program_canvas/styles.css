@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: #202020;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 12px;
+}
+
+#toolbar button {
+    background-color: #1565c0;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    padding: 2px;
+}
+
+/* Apply style to any "canvas" element on our homepage */
+canvas {
+    border: 1px solid black;
+}
+
+/* This will apply to the main body element on our page */
+body {
+    /* Stretch body to edges of window */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    /* Make all text white */
+    color: white;
+
+    /* Hide anything that goes outside of its element*/
+    overflow: hidden;
+}
+
+/* Applies to anything with the class "container". This is our section with
+   the user inputs. 
+*/
+.container {
+    height: 100%;   /* take up maximum vertical space */
+    display: flex;  /* this is a bit complicated, but it gives us more control on how the elements are aligned*/
+}
+
+/* These modifier apply to the element with the id "toolbar". Move our inputs to a sidebar */
+#toolbar {
+    display: flex;
+    flex-direction: column;             /* Organize elements in this div as a column*/
+    padding: 5px;                       /* Add space around div */
+    width: 70px;                        /* Make the sidebar 70 pixels wide */
+    background-color: #202020;        /* Set background color of sidebar */
+}                       
+
+    /* Applies to everything in toolbar*/
+    #toolbar * {
+        margin-bottom: 6px;             /* Add space between elements */
+    }
+
+    /* Applies to "label" elements within the "toolbar" div */
+    #toolbar label {
+        font-size: 12px;    /* Font size of labels */
+    }
+
+    /* Style the button */
+    #toolbar button {
+        background-color: #1565c0;
+        border: none;
+        border-radius: 4px;
+        color:white;
+        padding: 2px;
+    }
+
+h1 {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
